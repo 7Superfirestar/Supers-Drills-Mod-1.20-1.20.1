@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> SUPERSDRILLS_TAB = CREATIVE_MODE_TABS.register("supersdrills_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Steel.get()))
-                    .title(Component.translatable("creativetab.superdrills.tab"))
+                    .title(Component.translatable("creativetab.supersdrills.tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.Steel.get());
                     })
