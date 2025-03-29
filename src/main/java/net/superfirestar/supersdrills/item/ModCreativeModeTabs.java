@@ -15,11 +15,12 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SupersDrills.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> SUPERSDRILLS_TAB = CREATIVE_MODE_TABS.register("supersdrills_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Steel.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Ingot_Steel.get()))
                     .title(Component.translatable("creativetab.supersdrills.tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.Steel.get());
                         output.accept(ModBlocks.Steel_Block.get());
+                        output.accept(ModItems.Ingot_Steel.get());
                     })
                     .build());
 

@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> Steel = ITEMS.register("steel",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Ingot_Steel = ITEMS.register("ingot_steel",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
