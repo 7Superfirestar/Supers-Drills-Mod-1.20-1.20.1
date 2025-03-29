@@ -1,4 +1,7 @@
 {
-  "item.supersdrills.steel": "Steel",
+  "item.supersdrills.steel": "Steel Plates",
+
+  "block.supersdrills.steel_block": "Block of Steel",
+
   "creativetab.supersdrills.tab": "Super's Drills"
 }
