@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.Steel.get());
                         output.accept(ModBlocks.Steel_Block.get());
                         output.accept(ModItems.Ingot_Steel.get());
+                        output.accept(ModItems.Raw_Titanium.get());
+                        output.accept(ModItems.Ingot_Titanium.get());
+
                     })
                     .build());
 

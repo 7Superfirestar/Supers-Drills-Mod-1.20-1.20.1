@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 5,
+  "group": "titanium",
+  "ingredient": {
+    "item": "supersdrills:raw_titanium"
+  },
+  "result": "supersdrills:ingot_titanium"
+}

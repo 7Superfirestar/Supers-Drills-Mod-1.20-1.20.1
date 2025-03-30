@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 5,
+  "group": "titanium",
+  "ingredient": {
+    "item": "supersdrills:raw_titanium"
+  },
+  "result": "supersdrills:ingot_titanium"
+}
