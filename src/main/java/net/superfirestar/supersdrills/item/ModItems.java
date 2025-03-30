@@ -17,7 +17,7 @@ public class ModItems {
     public static final RegistryObject<Item> Raw_Titanium = ITEMS.register("raw_titanium",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> Ingot_Titanium = ITEMS.register("raw_titanium",
+    public static final RegistryObject<Item> Ingot_Titanium = ITEMS.register("ingot_titanium",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Ingot_Steel = ITEMS.register("ingot_steel",
